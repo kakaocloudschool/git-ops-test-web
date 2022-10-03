@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: cicd-test
-        image: ghcr.io/kakaocloudschool/example-app:dev
+        image: ghcr.io/kakaocloudschool/devops-test-web:dev
         resources:
           limits:
             memory: "128Mi"
