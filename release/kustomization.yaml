@@ -2,6 +2,6 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
 - name: ghcr.io/kakaocloudschool/devops-test-web
-  newTag: 31491c2d
+  newTag: dc83f225
 resources:
 - ../kustom_template
