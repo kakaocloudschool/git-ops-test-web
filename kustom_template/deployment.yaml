@@ -15,7 +15,6 @@ spec:
       - name: cicd-test
         image: ghcr.io/kakaocloudschool/devops-test-web:dev
         resources:
-        resources:
           limits:
             memory: "128Mi"
             cpu: "500m"
