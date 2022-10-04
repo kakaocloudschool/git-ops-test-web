@@ -17,11 +17,8 @@ spec:
         resources:
         resources:
           limits:
-            memory: "128Mi"
-            cpu: "500m"
-          requests:
             memory: "32Mi"          
-            cpu: 200m 
+            cpu: "200m"
         ports:
         - name: web-site
           containerPort: 80                      
