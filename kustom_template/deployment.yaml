@@ -16,10 +16,10 @@ spec:
         image: ghcr.io/kakaocloudschool/devops-test-web:dev
         resources:
           limits:
-            memory: "32Mi" 
+            memory: "256Mi" 
             cpu: "200m"
           requests:
-            memory: "16Mi"          
+            memory: "128Mi"          
             cpu: "50m"
         ports:
         - name: web-site
