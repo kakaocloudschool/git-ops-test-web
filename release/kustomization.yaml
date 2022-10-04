@@ -3,3 +3,5 @@ kind: Kustomization
 images:
 - name: ghcr.io/kakaocloudschool/devops-test-web
   newTag: 481f03e5
+resources:
+- ../kustom_template
